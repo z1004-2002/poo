@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: White;
+}
+.logo{
+    font-size: 40px;
+}
+.bleu{
+    color: #1634ad;
+}
+.bleu2{
+    color: #86c7ed;
+}
+.violet{
+    color: #a066cb;
+}

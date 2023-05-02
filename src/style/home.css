@@ -1,0 +1,54 @@
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.521)),url("./../assets/fond.jpg");
+    /* background: transparent; */
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+a{
+    text-decoration: none;
+}
+.home nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.home main{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+.home main h3{
+    font-size: 70px;
+    padding: 30px;
+}
+.home main p{
+    text-align: justify;
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+}
+.home main a{
+    font-size: 20px;
+    margin: 30px;
+    transition: 0.3s;
+    border: 5px solid transparent;
+    background: #1634ad;
+    border-radius: 30px;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+.home main a:hover{
+    background: transparent;
+    border: 5px solid #1634ad;
+}

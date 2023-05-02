@@ -1,0 +1,147 @@
+.student {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.521)), url("./../assets/fond.jpg");
+    /* background: transparent; */
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.student nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.student main {
+    padding: 20px;
+}
+
+.student main .head {
+    display: flex;
+    align-items: center;
+}
+
+.student main .head h3 {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.student main .head .add {
+    font-size: 30px;
+    padding: 3px 8px;
+    border: 3px solid transparent;
+    transition: 0.4s;
+    background: #1634ad;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.student main .head .add:hover {
+    background: transparent;
+    border: 3px solid #1634ad;
+}
+
+.student main .body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.student main .body table {
+    border-collapse: collapse;
+    border: 2px solid white;
+}
+
+.student main .body table tr,
+.student main .body table td,
+.student main .body table th {
+    border: 1px solid white;
+    padding: 4px;
+}
+
+.a {
+    width: 30px;
+}
+
+.b {
+    width: 90px;
+}
+
+.c,
+.d {
+    width: 300px;
+}
+
+.mat {
+    text-transform: uppercase;
+}
+
+.modal {
+    background: #1634ad;
+}
+
+.form input {
+    color: #482761;
+    margin-left: 5px;
+    height: 30px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.del {
+    cursor: pointer;
+}
+hr {
+    border: 1px solid #FFF;
+    margin: 5px 0;
+    width: 100%;
+}
+.form{
+    margin-top: 10px;
+}
+.text-field{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    margin-top: 10px;
+}
+.g1{
+    display: flex;
+    align-items: center;
+}
+.g2{
+    grid-column: 2/4;
+}
+label{
+    display: flex;
+}
+.footer{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.footer span{
+    margin-top: 10px;
+    padding: 7px 15px;
+    border: 2px solid transparent;
+    background: #261433;
+    border-radius: 10px;
+    transition:0.4s;
+    font-weight: 700;
+    cursor: pointer;
+}
+.footer span:hover{
+    border: 2px solid #261433;
+    background: transparent;
+}

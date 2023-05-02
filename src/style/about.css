@@ -1,0 +1,43 @@
+.about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.521)),url("./../assets/fond.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+.about nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.about main{
+    padding: 20px;
+}
+.about main h3{
+    font-size: 24px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.about main p{
+    padding: 20px;
+    text-align: center;
+}
+.about main p ul{
+    margin-top: 10px;
+}
+
+.about main p ul li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 600;
+}
