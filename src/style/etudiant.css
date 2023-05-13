@@ -112,7 +112,7 @@ hr {
 }
 .text-field{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     grid-template-rows: 30px;
     margin-top: 10px;
 }
